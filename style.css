@@ -43,10 +43,10 @@ header .logo {
   color: #dbd9db;
   text-decoration: none;
   font-size: 2em;
-  margin-left: 2rem;         /* added */
+  margin-left: 2rem;       
   font-weight: 700;
 }
-.logo span {                  /*added*/
+.logo span {                 
   color: rgb(247, 247, 75);
 }
 header .nav {
@@ -132,7 +132,7 @@ header .action .searchBx input {
   display: inline-block;
   padding: 10px 20px;
   margin: 20px 0;
-  border: 3px solid orchid; /* here */
+  border: 3px solid orchid; 
   text-decoration: none;
   font-weight: 700;
   border-radius: 5px;
@@ -157,7 +157,7 @@ header .action .searchBx input {
   }
 }
 .contentBx p {
-  font-size: 1em; /* added */
+  font-size: 1em; 
 }
 .banner .bg .content a:hover {
   background: #1aeeef;
@@ -166,12 +166,12 @@ header .action .searchBx input {
   box-shadow: 0 0 10px #1aeeef;
 }
 
-.banner .bg img {     /* removed width to remove image pixelation*/
+.banner .bg img {    
   margin: 19px auto;
   object-fit: cover;
 }
 .content span {
-  color: yellow;     /* effect on "Gamers" txt */
+  color: yellow;   
 }
 
 /* about */
@@ -202,7 +202,7 @@ header .action .searchBx input {
   display: inline-block;
   padding: 10px 20px;
   margin: 20px 0;
-  border: 3px solid orchid;          /* revised */
+  border: 3px solid orchid;        
   text-decoration: none;
   font-weight: 700;
   border-radius: 5px;
@@ -450,7 +450,7 @@ header .action .searchBx input {
   margin: 30px;
 }
 .contact .form h1 {
-  color: orangered;      /* changed from black */
+  color: orangered;     
 }
 .contact .form .inputBx {
   margin: 10px 0;
@@ -506,7 +506,7 @@ footer .info .logo {
   position: relative;
   color: #fff;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 700;
 }
 footer .info p {

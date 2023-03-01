@@ -25,6 +25,74 @@ body{
   background-size: cover;
   height: 100vh;
 }
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5%;
+  z-index: 1000;
+}
+header.sticky {
+  background: #1b2141;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0, 1);
+}
+header .logo {
+  position: relative;
+  color: #dbd9db;
+  text-decoration: none;
+  font-size: 2em;
+  margin-left: 2rem; /* added */
+  font-weight: 700;
+}
+.logo span {
+  /*added*/
+  color: rgb(247, 247, 75);
+}
+header .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+  margin: 10px;
+}
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+header ul li a:hover {
+  background: #1aeeef;
+  color: #050e2d;
+  box-shadow: 0 0 10x #1aeeef;
+}
+header .action .searchBx {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+}
+header .action .searchBx i {
+  font-size: 1.4em;
+  margin: 5px;
+  color: #222;
+}
+header .action .searchBx input {
+  outline: none;
+  border: none;
+  font-size: 1em;
+  color: #222;
+}
 .container{
   position: relative;
   max-width: 850px;

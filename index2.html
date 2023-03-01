@@ -10,12 +10,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
+  <header>
+    <a href="#" class="logo"><span>WD50P Gaming Hub</span></a>
+      <ul class="nav">
+        <li><a class="active" href="index.html"><<< Back to Home Page</a></li>
+      </ul>
+      <div class="action">
+        <div class="searchBx">
+          <a href="#"><i class="bx bx-search"></i></a>
+          <input type="text" placeholder="Search Games" />
+        </div>
+      </div>
+      <div class="toggleMenu" onclick="toggleMenu();"></div>
+    </header>
   <div class="container">
     <input type="checkbox" id="flip">
     <div class="cover">
       <div class="front">
         <img src="frontlmg.jpg" alt="">
-        <div class="text">
+        <div class="text" id="mirror-scale">
           <span class="text-1">Video games faster the<br> mindset that allows</span>
           <span class="text-2">creativity to grow</span>
         </div>
@@ -76,5 +89,15 @@
     </div>
     </div>
   </div>
+  <script type="text/javascript">
+      const signup = document.getElementById("signup");
+      const login = document.getElementById("login");
+      signup.addEventListener("click", function () {
+        document.getElementById("mirror-scale").style.transform = "scaleX(-1)";
+      });
+      login.addEventListener("click", function () {
+        document.getElementById("mirror-scale").style.transform = "scaleX(1)";        
+      });
+    </script>
 </body>
 </html>

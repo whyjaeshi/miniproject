@@ -1,4 +1,3 @@
-/* Google Font Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -50,8 +49,7 @@ header .logo {
   font-weight: 700;
 }
 .logo span {
-  /*added*/
-  color: rgb(247, 247, 75);
+    color: rgb(247, 247, 75);
 }
 header .nav {
   display: flex;
@@ -115,6 +113,7 @@ header .action .searchBx input {
 }
 .container #flip:checked ~ .cover{
   transform: rotateY(-180deg);
+  backface-visibility: hidden;
 }
  .container .cover .front,
  .container .cover .back{
@@ -168,7 +167,7 @@ header .action .searchBx input {
   text-align: center;
 }
 .cover .text .text-2{
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
 }
 .container .forms{

@@ -635,3 +635,19 @@ footer .info ul li:hover a i {
     flex-direction: column;
   }
 }
+@media (max-width: 375px) {
+  .banner {
+ 
+    min-width:600px;
+    margin-left: -60;
+    margin-top: 70px;
+  }
+  header {
+    margin-left: -30;
+}
+.about .contentBx {
+  min-width: 450px;
+  margin-left: 140px;
+}
+}
+

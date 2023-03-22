@@ -38,6 +38,11 @@ header.sticky {
   background: #1b2141;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0, 1);
 }
+.web-logo {
+  width: 170px;
+  height: 80px;
+  padding-left: 30px;
+}
 header .logo {
   position: relative;
   color: #dbd9db;

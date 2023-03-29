@@ -48,6 +48,12 @@ header .logo {
   margin-left: 2rem; /* added */
   font-weight: 700;
 }
+.web-logo {
+  width: 130px;
+  height: 80px;
+  padding-left: 30px;
+}
+
 .logo span {
     color: rgb(247, 247, 75);
 }
